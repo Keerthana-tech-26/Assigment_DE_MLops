@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 from sklearn.model_selection import train_test_split
 import numpy as np
 
-def evaluate(model_file, input_file, metrics_file):
+def evaluate(model_file="data/model.pkl", input_file="data/processed_data.csv", metrics_file="metrics.json"):
     df = pd.read_csv(input_file)
     X = df.drop('cpu_usage', axis=1)
     y = df['cpu_usage']

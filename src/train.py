@@ -4,7 +4,7 @@ import pickle
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 
-def train(input_file, model_file):
+def train(input_file="data/processed_data.csv", model_file="data/model.pkl"):
     df = pd.read_csv(input_file)
     X = df.drop('cpu_usage', axis=1)
     y = df['cpu_usage']
