@@ -1,9 +1,25 @@
 # CPU Usage Prediction Dashboard
 
-ML model deployment for predicting CPU usage with interactive dashboard.
+🚀 **Live Demo:** [https://tbwkmvxkhkvye98cx5wzfh.streamlit.app](https://tbwkmvxkhkvye98cx5wzfh.streamlit.app)
 
-## Run locally
-```
-pip install -r requirements.txt
-streamlit run app.py
-```
+## Assignment 2: ML Model Deployment
+
+A machine learning application for predicting CPU usage using Random Forest regression, deployed with Streamlit.
+
+### Features
+- 🎯 Real-time CPU usage predictions
+- 📊 Interactive model performance metrics
+- 📈 Data analysis and visualizations
+- 🤖 Auto-training on first deployment
+
+### Tech Stack
+- Python 3.x
+- Streamlit
+- Scikit-learn
+- Pandas, NumPy
+- Plotly
+
+### Model Details
+- **Algorithm:** Random Forest Regressor
+- **Features:** 5 numeric + encoded categorical
+- **Framework:** Scikit-learn
