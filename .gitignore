@@ -1,0 +1,7 @@
+venv/
+*.pyc
+__pycache__/
+.dvc/
+# *.csv
+data/model.pkl
+# data/processed_data.csv
